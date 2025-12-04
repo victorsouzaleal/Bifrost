@@ -140,7 +140,7 @@ mkdir -p "$DESKTOP_ENTRY_DIR"
 
 ICON_THEME_DIR="$HOME/.local/share/icons/hicolor/256x256/apps"
 mkdir -p "$ICON_THEME_DIR"
-install -Dm644 "$BIN_DIR/bifrost.png" "$ICON_THEME_DIR/bifrost.png"
+install -Dm644 "$BIN_DIR/src/assets/images/bifrost.png" "$ICON_THEME_DIR/bifrost.png"
 
 cat > "$DESKTOP_ENTRY_DIR/bifrost.desktop" <<DESKTOP
 [Desktop Entry]
